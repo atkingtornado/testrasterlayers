@@ -19,7 +19,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.wxbyte.testrasterlayers"
     },
     "web": {
       "bundler": "metro",
@@ -27,7 +28,8 @@
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
-      "expo-router"
+      "expo-router",
+      "@maplibre/maplibre-react-native"
     ],
     "experiments": {
       "typedRoutes": true
